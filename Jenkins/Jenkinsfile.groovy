@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Tests') {
             steps {
-                bat 'python -m pytest --junitxml build\\report.xml tests\\'
+                powershell  'python3 -m pytest --junitxml build\\report.xml tests\\'
                 junit 'build\\report.xml'
             }
         }
