@@ -9,7 +9,9 @@ pipeline {
         }
 
         stage('Integration') {
-            junit 'build/report.xml'
+            steps {
+                junit 'build/report.xml'
+            }
         }
     }
 }
