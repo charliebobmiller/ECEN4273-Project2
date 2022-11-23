@@ -1,10 +1,12 @@
 pipeline {
-    agent any
+    agent {
+        docker { image 'qnib/pytest' }
+    }
 
     stages {
         stage('Tests') {
             steps {
-                powershell  'python3 -m pytest --junitxml build\\report.xml tests\\'
+                sh  'pytest --junitxml build\\report.xml tests\\'
                 junit 'build\\report.xml'
             }
         }
