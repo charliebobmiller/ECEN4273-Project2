@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        any { image 'qnib/pytest' }
+        docker { image 'qnib/pytest' }
     }
 
     stages {
