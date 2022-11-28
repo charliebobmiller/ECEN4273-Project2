@@ -6,48 +6,32 @@
       "label": "pickachu",
       "points": [
         [
-          502.5,
-          778.75
+          40.0,
+          766.25
         ],
         [
-          495.0,
-          1201.25
-        ],
-        [
-          882.5,
-          1196.25
-        ],
-        [
-          892.5,
-          778.75
+          487.5,
+          1211.25
         ]
       ],
       "group_id": null,
-      "shape_type": "polygon",
+      "shape_type": "rectangle",
       "flags": {}
     },
     {
       "label": "pickachu",
       "points": [
         [
-          52.5,
-          1208.75
+          892.5,
+          1188.75
         ],
         [
-          465.0,
-          1206.25
-        ],
-        [
-          472.5,
-          768.75
-        ],
-        [
-          50.0,
-          763.75
+          480.0,
+          771.25
         ]
       ],
       "group_id": null,
-      "shape_type": "polygon",
+      "shape_type": "rectangle",
       "flags": {}
     }
   ],
